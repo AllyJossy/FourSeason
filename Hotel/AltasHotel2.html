@@ -1,0 +1,33 @@
+<html>
+    <head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+        <title>Altas de Hoteles</title>
+		<link rel="shortcut icon" href="http://static02.hongkiat.com/logo/hkdc/favicon.ico">
+		<link rel="icon" href="http://static02.hongkiat.com/logo/hkdc/favicon.ico">
+		<link rel="stylesheet" type="text/css" media="all" href="../estilos/estilosFormulario.css">
+		<link rel="stylesheet" type="text/css" media="all" href="../estilos/responsiveFormulario.css">
+    </head>
+    <body>
+	<section id="container">
+    	<H1> <center>
+    		ALTAS DE HOTELES
+    	</center></H1>
+        <form id="hongkiat-form" action="AltasHotel.php" method="post">
+			<div id="wrapping" class="clearfix">
+				<section id="aligned">
+					<input type="text" name="codigo_h" id="codigo" placeholder="Código del Hotel" autocomplete="off" tabindex="1" class="txtinput">
+					<input type="text" name="nombre_h" id="nombre" placeholder="Nombre del Hotel" autocomplete="off" tabindex="2" class="txtinput">
+					<input type="text" name="categoria_h" id="categoria" placeholder="Categoria" autocomplete="off" tabindex="3" class="txtinput">
+					<input type="text" name="direccion_h" id="direccion" placeholder="Direccion" tabindex="4" class="txtinput">
+				</section>
+			</div>
+			<section id="buttons">
+				<input type="reset" name="reset" id="resetbtn" class="resetbtn" value="Borrar">
+				<input type="submit" name="submit" id="submitbtn" class="submitbtn" tabindex="7" value="Enviar">
+				<br style="clear:both;">
+			</section>
+		</form>
+		</section>
+    </body>
+</html>
